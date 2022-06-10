@@ -1,0 +1,45 @@
+header{
+    font-size: 1em;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+header nav .nav-rtl{
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-rtl a {
+    color: #444;
+    padding: 5px 8px;
+    margin: 0px 3px;
+    font-size: 1.1;
+}
+
+header nav .nav-ltr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav .nav-ltr .register-login-btn{
+    border: 1px solid #666;
+    padding: 5px 7px;
+    border-radius: 5px;
+     
+}
+
+header nav .nav-ltr .register-login-btn i{
+    margin: 7px;
+    color: #444;
+}
+
+header nav .nav-ltr .register-login-btn a{   
+    color: #444;
+    margin: 0px 8px;
+}
